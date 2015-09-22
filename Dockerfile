@@ -1,4 +1,4 @@
-FROM postgres
+FROM vitradisapratama/docker-posgis
 MAINTAINER Vitradisa Pratama (vitradisapratama@gmail.com)
 
 ENV POSTGRES_PASSWORD = postgres
