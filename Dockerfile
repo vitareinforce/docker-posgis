@@ -3,6 +3,4 @@ MAINTAINER Vitradisa Pratama (vitradisapratama@gmail.com)
 
 RUN apt-get update && apt-get install -y postgresql-9.3 postgis-2.1
 
-RUN echo "sed -i 's/peer/md5/' /etc/postgresql/9.3/main/pg_hba.conf" >> /root/.bashrc
-
 EXPOSE 5432
